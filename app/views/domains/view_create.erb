@@ -1,0 +1,6 @@
+<%= form_for :domain, :url => {:controller => "domains", :action => "create"} do |f| %>
+  <%= f.label :name %>:
+  <%= f.text_field :name %><br />
+
+  <%= f.submit %>
+<% end %>
